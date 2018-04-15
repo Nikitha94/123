@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.nikitha.automation.businessscript.gmail">
+        <methods>
+          <include name="gmailTest"/>
+          <include name="beforeTcExecution"/>
+          <include name="afterExecution"/>
+        </methods>
+      </class> <!-- com.nikitha.automation.businessscript.gmail -->
+      <class name="com.nikitha.automation.businessscript.FbTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="beforeTcExecution"/>
+          <include name="afterExecution"/>
+        </methods>
+      </class> <!-- com.nikitha.automation.businessscript.FbTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
